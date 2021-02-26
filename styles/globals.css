@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
 body{
     background-color: theme('colors.gray.50');
 }
+h1, h2, h3{ font-family: 'Ubuntu', sans-serif; }
+h4, h5, h6, p, a, span{ font-family: 'Ubuntu', sans-serif; }
 .image-1{
     background: url('/mountains.jpg');
     background-attachment: fixed;
