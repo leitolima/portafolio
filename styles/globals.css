@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: theme('colors.gray.50');
+}
+.image-1{
+    background: url('/mountains.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 1280px){
+    .calc-width-18{
+        /* 18rem */
+        width: calc(100vw - 18rem);
+    }
+}

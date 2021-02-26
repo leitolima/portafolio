@@ -6,7 +6,7 @@ import Section from '../components/section';
 
 const Home = () => {
     return (
-        <main className="flex flex-row">
+        <main>
             <Sidebar/>
             <Section/>
         </main>
