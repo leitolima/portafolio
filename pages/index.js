@@ -1,10 +1,15 @@
 import React from 'react';
+//Sidebar
+import Sidebar from '../components/sidebar';
+//Section
+import Section from '../components/section';
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <main className="flex flex-row">
+            <Sidebar/>
+            <Section/>
+        </main>
     )
 }
 
