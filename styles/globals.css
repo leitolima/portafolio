@@ -18,6 +18,21 @@ h4, h5, h6, p, a, span{ font-family: 'Ubuntu', sans-serif; }
     background-position: center;
     background-size: cover;
 }
+.resume_item{
+    border-left: 2px solid red;
+    position: relative;
+}
+.resume_item::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    border: 2px solid red;
+    background: theme('colors.gray.50');
+    top: 0;
+    left: -9px;
+}
 
 @media (min-width: 1280px){
     .calc-width-18{

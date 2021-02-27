@@ -9,10 +9,11 @@ const H1 = ({
     marginBottom = 'mb-3',
     marginTop = '',
     marginRight = '',
-    marginLeft = ''
+    marginLeft = '',
+    transform = ''
 }) => {
     return (
-        <h1 className={`text-${size} font-${font} text-${color} text-${align} ${marginTop} ${marginBottom} ${marginRight} ${marginLeft}`}>{children}</h1>
+        <h1 className={`${transform} text-${size} font-${font} text-${color} text-${align} ${marginTop} ${marginBottom} ${marginRight} ${marginLeft}`}>{children}</h1>
     )
 }
 
