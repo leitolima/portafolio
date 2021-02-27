@@ -4,10 +4,11 @@ const P = ({
     children, 
     size = 'lg',
     align = 'left',
-    color = 'white'
+    color = 'gray-800',
+    transform = ''
 }) => {
     return (
-        <p className={`text-${size} text-${color} text-${align} mb-2`}>{children}</p>
+        <p className={`text-${size} text-${color} text-${align} ${transform} mb-2`}>{children}</p>
     )
 }
 

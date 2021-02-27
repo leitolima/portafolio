@@ -5,10 +5,14 @@ const H1 = ({
     size = 'lg',
     align = 'left',
     font = 'bold',
-    color = 'white'
+    color = 'white',
+    marginBottom = 'mb-3',
+    marginTop = '',
+    marginRight = '',
+    marginLeft = ''
 }) => {
     return (
-        <h1 className={`text-${size} font-${font} text-${color} text-${align} mb-2`}>{children}</h1>
+        <h1 className={`text-${size} font-${font} text-${color} text-${align} ${marginTop} ${marginBottom} ${marginRight} ${marginLeft}`}>{children}</h1>
     )
 }
 
