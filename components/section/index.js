@@ -2,6 +2,7 @@ import React from 'react';
 //Components section
 import Presentation from './Presentation';
 import Curriculum from './Curriculum';
+import Contact from './Contact';
 import Skills from './Skills';
 import About from './About';
 
@@ -13,6 +14,7 @@ const Section = () => {
                 <About/>
                 <Skills/>
                 <Curriculum/>
+                <Contact/>
             </section>
         </>
     )
