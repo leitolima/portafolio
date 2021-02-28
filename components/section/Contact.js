@@ -3,6 +3,9 @@ import React from 'react';
 import H1 from '../H1';
 //Components Contact
 import Data from './contact/Data';
+//Icons
+import Mail from '../../public/mail2.svg';
+import Phone from '../../public/phone.svg';
 
 const Contact = () => {
     return (
@@ -11,14 +14,12 @@ const Contact = () => {
             <div className="w-1/2 shadow flex flex-col py-6">
                 <Data
                     title="Email:"
-                    icon="/mail.svg"
                     text="leonel_lima19@hotmail.com"
-                />
+                ><Mail/></Data>
                 <Data
                     title="Telefono:"
-                    icon="/phone.svg"
                     text="+3364519919"
-                />
+                ><Phone/></Data>
             </div>
         </article>
     )

@@ -3,11 +3,11 @@ import React from 'react';
 import H1 from '../../H1';
 import P from '../../P';
 
-const Data = ({ icon, title, text }) => {
+const Data = ({ children, title, text }) => {
     return (
         <div className="flex flex-row items-center mb-4">
             <div className="px-8">
-                <img src={icon} alt="Mail svg" className="w-8 h-8"/>
+                { children }
             </div>
             <div>
                 <H1 color="gray-900" size="2xl" marginBottom="mb-1">{title}</H1>
