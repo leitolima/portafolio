@@ -5,7 +5,7 @@ import P from '../P';
 
 const About = () => {
     return (
-        <article className="py-12 px-5">
+        <article className="container mx-auto py-12 px-5">
             <H1 size="3xl" color="lightblue" marginBottom="mb-6">Sobre mí</H1>
             <P>
                 Soy estudiante de terceriario, residente en Argentina. Me desempeño en el ámbito del desarrollo de software (web) 
@@ -13,9 +13,9 @@ const About = () => {
                 desarrollando aplicaciones web con tecnologías JavaScript. También invierto en conocimiento en cursos certificados 
                 en UDEMY, y siempre busco mejorar mis habilidades mediante la práctica, desarrollando aplicaciones y sitios web como este.
             </P>
-            <div className="flex flex-row mt-8">
-                <img src="/my_img1.jpg" alt="Leonel Lima" className="w-80 h-80 object-cover"/>
-                <div className="w-full px-5">
+            <div className="flex flex-col md:flex-row mt-8">
+                <img src="/my_img1.jpg" alt="Leonel Lima" className="block mx-auto w-80 h-80 object-cover"/>
+                <div className="w-full mt-8 md:mt-0 md:px-5">
                     <H1 size="3xl" font="tight" color="lightblue">Desarrollador: Web, Backend & Frontend.</H1>
                     <P transform="italic">
                         Desarrollador con conocimientos en JavaScript (vanilla, NodeJs en backend, y ReactJs/NextJs en frontend);

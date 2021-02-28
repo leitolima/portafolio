@@ -8,13 +8,13 @@ import Column2 from './skills/Column2';
 
 const Skills = () => {
     return (
-        <article className="py-12 px-5">
+        <article className="container mx-auto py-12 px-5">
             <H1 size="3xl" color="lightblue" marginBottom="mb-6">Habilidades</H1>
-            <div className="flex flex-row">
-                <div className="w-1/2">
+            <div className="flex flex-col md:flex-row">
+                <div className="w-full md:w-1/2">
                     <Column1/>
                 </div>
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <Column2/>
                 </div>
             </div>
