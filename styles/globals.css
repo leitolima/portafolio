@@ -19,8 +19,8 @@ h4, h5, h6, p, a, span{ font-family: 'Ubuntu', sans-serif; }
     background-size: cover;
 }
 .bg-dark{ background: #171D20; }
-.text-lightblue{ color: #06abbf; }
-.hover\:text-lightblue:hover{ color: #06abbf; }
+.text-lightblue{ color: #179fb0; }
+.hover\:text-lightblue:hover{ color: #179fb0; }
 .resume_item{
     border-left: 2px solid #06abbf;
     position: relative;
