@@ -9,7 +9,7 @@ import Column2 from './skills/Column2';
 const Skills = () => {
     return (
         <article className="py-12 px-5">
-            <H1 size="3xl" color="blue-500" marginBottom="mb-6">Habilidades</H1>
+            <H1 size="3xl" color="lightblue" marginBottom="mb-6">Habilidades</H1>
             <div className="flex flex-row">
                 <div className="w-1/2">
                     <Column1/>

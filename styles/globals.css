@@ -18,8 +18,11 @@ h4, h5, h6, p, a, span{ font-family: 'Ubuntu', sans-serif; }
     background-position: center;
     background-size: cover;
 }
+.bg-dark{ background: #171D20; }
+.text-lightblue{ color: #06abbf; }
+.hover\:text-lightblue:hover{ color: #06abbf; }
 .resume_item{
-    border-left: 2px solid red;
+    border-left: 2px solid #06abbf;
     position: relative;
 }
 .resume_item::before{
@@ -28,7 +31,7 @@ h4, h5, h6, p, a, span{ font-family: 'Ubuntu', sans-serif; }
     width: 16px;
     height: 16px;
     border-radius: 999px;
-    border: 2px solid red;
+    border: 2px solid #06abbf;
     background: theme('colors.gray.50');
     top: 0;
     left: -9px;

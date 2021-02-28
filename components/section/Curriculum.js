@@ -8,14 +8,14 @@ import Education from './cv/Education';
 const Curriculum = () => {
     return (
         <article className="py-12 px-5">
-            <H1 size="3xl" color="blue-500" marginBottom="mb-6">Currículum</H1>
+            <H1 size="3xl" color="lightblue" marginBottom="mb-6">Currículum</H1>
             <div className="flex flex-row">
                 <div className="w-1/2">
-                    <H1 size="2xl" color="blue-500">Experiencia profesional</H1>
+                    <H1 size="2xl" color="lightblue">Experiencia profesional</H1>
                     <Experience/>
                 </div>
                 <div className="w-1/2">
-                    <H1 size="2xl" color="blue-500">Educación</H1>
+                    <H1 size="2xl" color="lightblue">Educación</H1>
                     <Education/>
                 </div>
             </div>
