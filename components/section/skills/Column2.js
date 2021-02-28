@@ -1,29 +1,15 @@
 import React from 'react';
-import P from '../../P';
+import Bar from './Bar';
+import Skill from './Skill';
 
 const Column2 = () => {
     return (
         <ul className="space-y-4 pr-5">
-            <li>
-                <span className="block mb-2">NodeJs<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">NoSQL (MongoDB)<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">GraphQL<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">SQL (MySQL)<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">Git<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
+            <li><Skill tech="NodeJs" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="NoSQL (MongoDB)" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="GraphQL" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="SQL (MySQL)" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="Git" percentage="100"/><Bar width="100"/></li>
         </ul>
     )
 }

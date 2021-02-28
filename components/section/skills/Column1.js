@@ -1,29 +1,15 @@
 import React from 'react';
-import P from '../../P';
+import Bar from './Bar';
+import Skill from './Skill';
 
 const Column1 = () => {
     return (
         <ul className="space-y-4 pr-5">
-            <li>
-                <span className="block mb-2">HTML<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">CSS<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">Framework CSS (Tailwind)<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">JavaScript<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
-            <li>
-                <span className="block mb-2">ReactJs y NextJs<i className="float-right">100%</i></span>
-                <div className="w-full h-3 bg-gradient-to-br from-pink-500 to-purple-600"></div>
-            </li>
+            <li><Skill tech="HTML" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="CSS" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="Framework CSS (Tailwind" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="JavaScript" percentage="100"/><Bar width="100"/></li>
+            <li><Skill tech="ReactJs y NextJs" percentage="100"/><Bar width="100"/></li>
         </ul>
     )
 }
