@@ -5,7 +5,7 @@ import P from '../../P';
 
 const Data = ({ children, title, text }) => {
     return (
-        <div className="flex flex-row items-center mb-4">
+        <div className="hover:text-lightblue duration-200 flex flex-row items-center mb-4">
             <div className="px-8">
                 { children }
             </div>
