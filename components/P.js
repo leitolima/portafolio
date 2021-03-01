@@ -8,7 +8,7 @@ const P = ({
     transform = ''
 }) => {
     return (
-        <p className={`text-${size} text-${color} text-${align} ${transform} mb-2 ${css}`}>{children}</p>
+        <p className={`text-${size} text-${color} text-${align} ${transform} mb-2`}>{children}</p>
     )
 }
 
