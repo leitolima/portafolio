@@ -43,3 +43,9 @@ h4, h5, h6, p, a, span{ font-family: 'Ubuntu', sans-serif; }
         width: calc(100vw - 18rem);
     }
 }
+
+/* WIDTH */
+.w-100{width: 100%;}
+.w-90{width: 90%;}
+.w-80{width: 80%;}
+.w-70{width: 70%;}
