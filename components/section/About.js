@@ -14,7 +14,7 @@ const About = () => {
                 en UDEMY, y siempre busco mejorar mis habilidades mediante la práctica, desarrollando aplicaciones y sitios web como este.
             </P>
             <div className="flex flex-col md:flex-row mt-8">
-                <img src="/my_img1.jpg" alt="Leonel Lima" className="block mx-auto w-80 h-80 object-cover"/>
+                <img src="/my_img1.jpg" alt="Leonel Lima" className="block mx-auto w-80 h-80 object-contain"/>
                 <div className="w-full mt-8 md:mt-0 md:px-5">
                     <H1 size="3xl" font="tight" color="lightblue">Desarrollador: Web, Backend & Frontend.</H1>
                     <P transform="italic">
