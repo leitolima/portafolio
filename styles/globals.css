@@ -45,7 +45,19 @@ h4, h5, h6, p, a, span{ font-family: 'Ubuntu', sans-serif; }
 }
 
 /* WIDTH */
-.w-100{width: 100%;}
-.w-90{width: 90%;}
-.w-80{width: 80%;}
-.w-70{width: 70%;}
+.width-100{max-width: 100%;}
+.width-90{max-width: 90%;}
+.width-80{max-width: 80%;}
+.width-70{max-width: 70%;}
+.bar{
+    animation: load 2.5s;
+}
+
+@keyframes load{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
