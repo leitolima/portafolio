@@ -10,10 +10,11 @@ const H1 = ({
     marginTop = '',
     marginRight = '',
     marginLeft = '',
-    transform = ''
+    transform = '',
+    css = ''
 }) => {
     return (
-        <h1 className={`${transform} text-${size} font-${font} text-${color} text-${align} ${marginTop} ${marginBottom} ${marginRight} ${marginLeft}`}>{children}</h1>
+        <h1 className={`${css} ${transform} text-${size} font-${font} text-${color} text-${align} ${marginTop} ${marginBottom} ${marginRight} ${marginLeft}`}>{children}</h1>
     )
 }
 

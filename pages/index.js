@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Sidebar from '../components/sidebar';
 import BtnSidebar from '../components/BtnSidebar';
 import Section from '../components/section';
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -20,6 +21,7 @@ const Home = () => {
             <BtnSidebar setOpen={() => setOpen(!open)}/>
             <Sidebar open={open}/>
             <Section/>
+            <Footer/>
         </main>
         </>
     )

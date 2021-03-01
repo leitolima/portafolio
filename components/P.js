@@ -5,10 +5,11 @@ const P = ({
     size = 'lg',
     align = 'left',
     color = 'gray-800',
-    transform = ''
+    transform = '',
+    marginBottom = '2'
 }) => {
     return (
-        <p className={`text-${size} text-${color} text-${align} ${transform} mb-2`}>{children}</p>
+        <p className={`text-${size} text-${color} text-${align} ${transform} mb-${marginBottom}`}>{children}</p>
     )
 }
 
