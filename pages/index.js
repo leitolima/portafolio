@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 //Sidebar
 import Sidebar from '../components/sidebar';
+import BtnSidebar from '../components/BtnSidebar';
 //Section
 import Section from '../components/section';
 
 const Home = () => {
+
+    const [open, setOpen] = useState(false);
+
     return (
         <>
         <Head>
@@ -14,7 +18,8 @@ const Home = () => {
             <title>Leonel Lima | Web Developer</title>
         </Head>
         <main>
-            <Sidebar/>
+            <BtnSidebar setOpen={() => setOpen(!open)}/>
+            <Sidebar open={open}/>
             <Section/>
         </main>
         </>
