@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 //Components
 import H1 from '../H1';
 //Components Contact
@@ -6,6 +7,7 @@ import Data from './contact/Data';
 //Icons
 import Mail from '../../public/mail2.svg';
 import Phone from '../../public/phone.svg';
+import LinkedIn from '../../public/link.svg';
 
 const Contact = () => {
     return (
@@ -20,6 +22,11 @@ const Contact = () => {
                     title="Telefono:"
                     text="+3364519919"
                 ><Phone/></Data>
+                <Data
+                    title="LinkedIn"
+                    marginBottom="mb-0"
+                    css="cursor-pointer"
+                ><a href="https://www.linkedin.com/in/leonel-lima/" target="_blank"><LinkedIn/></a></Data>
             </div>
         </article>
     )
