@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-//Sidebar
+//Components
 import Sidebar from '../components/sidebar';
 import BtnSidebar from '../components/BtnSidebar';
-//Section
 import Section from '../components/section';
 
 const Home = () => {

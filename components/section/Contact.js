@@ -11,7 +11,7 @@ import LinkedIn from '../../public/link.svg';
 
 const Contact = () => {
     return (
-        <article className="container mx-auto py-12 px-5">
+        <article className="container mx-auto py-14 px-5">
             <H1 size="3xl" color="lightblue" marginBottom="mb-6">Contacto</H1>
             <div className="w-full md:w-2/3 lg:w-1/2 shadow flex flex-col py-6">
                 <Data

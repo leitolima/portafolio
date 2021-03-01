@@ -1,7 +1,6 @@
 import React from 'react';
 //Components
 import H1 from '../H1';
-import P from '../P';
 //Components Skills
 import Column1 from './skills/Column1';
 import Column2 from './skills/Column2';
